@@ -1,17 +1,115 @@
 {
+	"editor.fontSize": 16,
+	"editor.fontFamily": "Fira Code",
+	"editor.fontLigatures": true,
+	"editor.fontWeight": "normal",
+	"editor.letterSpacing": 0.5,
+	"editor.cursorBlinking": "expand",
+	"editor.cursorWidth": 4,
+	"editor.cursorSmoothCaretAnimation": "on",
+	"editor.wordWrap": "on",
+	"editor.formatOnSave": true,
 	"editor.suggestSelection": "first",
+	"editor.inlineSuggest.enabled": true,
+	"editor.inlineSuggest.showToolbar": "always",
+	"editor.linkedEditing": true,
+	"editor.guides.bracketPairs": "active",
+	"editor.stickyScroll.enabled": true,
+	"editor.defaultFormatter": "esbenp.prettier-vscode",
+
+	"prettier.tabWidth": 4,
+	"prettier.useTabs": true,
+	"prettier.singleQuote": true,
+
+	"terminal.integrated.fontFamily": "MesloLGS NF",
+	"terminal.integrated.fontSize": 14,
+	"terminal.integrated.defaultProfile.osx": "zsh",
+
+	"workbench.startupEditor": "newUntitledFile",
+	"workbench.activityBar.orientation": "vertical",
+	"workbench.preferredDarkColorTheme": "Palenight (Mild Contrast)",
+	"workbench.preferredLightColorTheme": "Default Light Modern",
+	"workbench.iconTheme": "material-icon-theme",
+	"workbench.fontAliasing": "auto",
+	"workbench.editor.customLabels.patterns": {
+		"**/app/**/page.tsx": "${dirname} - Page",
+		"**/app/**/layout.tsx": "${dirname} - Layout",
+		"**/app/**/route.ts": "${dirname} - API"
+	},
+	"workbench.settings.useSplitJSON": true,
+	"workbench.settings.applyToAllProfiles": [],
+	"workbench.settings.editor": "json",
+	"workbench.colorCustomizations": {
+		"editorCursor.foreground": "#F5E008"
+	},
+
+	"explorer.compactFolders": false,
+	"explorer.openEditors.visible": 1,
+
+	"window.title": "${dirty}${activeEditorShort}${separator}${rootPath}${separator}${appName}",
+	"window.titleBarStyle": "custom",
+	"window.autoDetectColorScheme": true,
 
 	"git.autofetch": true,
 	"git.confirmSync": true,
 
-	"explorer.compactFolders": false,
-
 	"typescript.referencesCodeLens.enabled": true,
 
-	"workbench.editor.customLabels.patterns": {
-		"**/app/**/page.tsx": "${dirname} - Page",
-		"**/app/**/layout.tsx": "${dirname} - Layout",
-		"**/app/**/route.ts": "${dirname} - API",
+	"[typescript]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
+	"[typescriptreact]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
+	"[javascript]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
+	"[javascriptreact]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
+	"[css]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
+	"[json]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
+	"[html]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
+	"[python]": {
+		"editor.formatOnType": true
+	},
+	"[dockercompose]": {
+		"editor.insertSpaces": true,
+		"editor.tabSize": 2,
+		"editor.autoIndent": "advanced",
+		"editor.defaultFormatter": "redhat.vscode-yaml"
+	},
+	"[github-actions-workflow]": {
+		"editor.defaultFormatter": "redhat.vscode-yaml"
+	},
+
+	"diffEditor.ignoreTrimWhitespace": false,
+
+	"cursor.cpp.disabledLanguages": ["plaintext", "markdown", "scminput"],
+	"cursor.composer.queueMessageDefaultBehavior": "queue",
+	"cursor.composer.usageSummaryDisplay": "always",
+	"cursor.composer.shouldChimeAfterChatFinishes": true,
+	"cursor.composer.shouldAllowCustomModes": true,
+	"cursor.terminal.usePreviewBox": true,
+
+	"github.copilot.enable": {
+		"*": true,
+		"plaintext": false,
+		"markdown": false,
+		"scminput": false
+	},
+
+	"macros": {
+		"collapseAndClose": [
+			"workbench.files.action.collapseExplorerFolders",
+			"workbench.action.closeAllEditors"
+		]
 	},
 
 	"peacock.favoriteColors": [
@@ -27,127 +125,9 @@
 		{ "name": "Node Green", "value": "#215732" },
 		{ "name": "React Blue", "value": "#00b3e6" },
 		{ "name": "Something Different", "value": "#832561" },
-		{ "name": "Vue Green", "value": "#42b883" },
+		{ "name": "Vue Green", "value": "#42b883" }
 	],
 
 	"vsicons.dontShowNewVersionMessage": true,
-
-	"editor.fontSize": 16,
-	"editor.fontFamily": "Fira Code",
-	"editor.fontLigatures": true,
-	"editor.fontWeight": "normal",
-	"editor.letterSpacing": 0.5,
-
-	"terminal.integrated.fontFamily": "MesloLGS NF",
-	"terminal.integrated.fontSize": 14,
-	"terminal.integrated.defaultProfile.osx": "fish",
-	"terminal.integrated.automationProfile.windows": {},
-
-	"editor.cursorBlinking": "expand",
-	"editor.cursorWidth": 4,
-	"editor.cursorSmoothCaretAnimation": "on",
-
-	"editor.wordWrap": "on",
-	"editor.formatOnSave": true,
-	"editor.inlineSuggest.enabled": true,
-	"editor.inlineSuggest.showToolbar": "always",
-	"editor.linkedEditing": true,
-	"editor.guides.bracketPairs": "active",
-	"editor.stickyScroll.enabled": true,
-
-	"editor.defaultFormatter": "esbenp.prettier-vscode",
-	"prettier.tabWidth": 4,
-	"prettier.useTabs": true,
-	"prettier.singleQuote": true,
-
-	"[typescript]": {
-		"editor.defaultFormatter": "esbenp.prettier-vscode",
-	},
-	"[typescriptreact]": {
-		"editor.defaultFormatter": "esbenp.prettier-vscode",
-	},
-	"[javascript]": {
-		"editor.defaultFormatter": "esbenp.prettier-vscode",
-	},
-	"[javascriptreact]": {
-		"editor.defaultFormatter": "esbenp.prettier-vscode",
-	},
-	"[css]": {
-		"editor.defaultFormatter": "esbenp.prettier-vscode",
-	},
-	"[json]": {
-		"editor.defaultFormatter": "esbenp.prettier-vscode",
-	},
-	"[html]": {
-		"editor.defaultFormatter": "esbenp.prettier-vscode",
-	},
-	"[python]": {
-		"editor.formatOnType": true,
-	},
-	"[dockercompose]": {
-		"editor.insertSpaces": true,
-		"editor.tabSize": 2,
-		"editor.autoIndent": "advanced",
-		"editor.defaultFormatter": "redhat.vscode-yaml",
-	},
-	"[github-actions-workflow]": {
-		"editor.defaultFormatter": "redhat.vscode-yaml",
-	},
-
-	"tabnine.experimentalAutoImports": true,
-	"todo-tree.tree.showScanModeButton": false,
-
-	"workbench.startupEditor": "newUntitledFile",
-	"workbench.activityBar.orientation": "vertical",
-	"workbench.preferredDarkColorTheme": "Palenight (Mild Contrast)",
-	"workbench.preferredLightColorTheme": "Default Light Modern",
-	"workbench.iconTheme": "material-icon-theme",
-	"workbench.fontAliasing": "auto",
-
-	"workbench.settings.openDefaultSettings": true,
-	"workbench.settings.useSplitJSON": true,
-	"workbench.settings.applyToAllProfiles": [],
-	"workbench.settings.editor": "json",
-
-	"explorer.openEditors.visible": 1,
-
-	"window.title": "${dirty}${activeEditorShort}${separator}${rootPath}${separator}${appName}",
-	"window.titleBarStyle": "custom",
-	"window.autoDetectColorScheme": true,
-
-	"workbench.colorCustomizations": {
-		"editorCursor.foreground": "#F5E008",
-	},
-
-	"macros": {
-		"collapseAndClose": [
-			"workbench.files.action.collapseExplorerFolders",
-			"workbench.action.closeAllEditors",
-		],
-	},
-
-	"github.copilot.enable": {
-		"*": true,
-		"plaintext": false,
-		"markdown": false,
-		"scminput": false,
-	},
-
-	"yaml.schemas": {
-		"file:///Users/hussnainfareed/.vscode/extensions/atlassian.atlascode-3.0.10/resources/schemas/pipelines-schema.json": "bitbucket-pipelines.yml",
-	},
-
-	"diffEditor.ignoreTrimWhitespace": false,
-
-	"cursor.cpp.disabledLanguages": ["plaintext", "markdown", "scminput"],
-	"cursor.composer.queueMessageDefaultBehavior": "queue",
-	"cursor.composer.usageSummaryDisplay": "always",
-	"cursor.composer.shouldChimeAfterChatFinishes": true,
-	"cursor.composer.shouldAllowCustomModes": true,
-	"cursor.terminal.usePreviewBox": true,
-
-	"pieces.setCopilotLocation": true,
-	"pieces.OS.launchOnStartup": "Yes",
-
-	"redhat.telemetry.enabled": true,
+	"todo-tree.tree.showScanModeButton": false
 }
