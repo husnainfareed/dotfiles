@@ -16,6 +16,9 @@
 	"editor.guides.bracketPairs": "active",
 	"editor.stickyScroll.enabled": true,
 	"editor.defaultFormatter": "esbenp.prettier-vscode",
+	"editor.pasteAs.preferences": [
+		"text.updateImports.jsts"
+	],
 
 	"prettier.tabWidth": 4,
 	"prettier.useTabs": true,
