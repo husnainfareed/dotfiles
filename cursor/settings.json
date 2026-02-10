@@ -1,7 +1,5 @@
 {
 	"editor.suggestSelection": "first",
-	"vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
-	"python.jediEnabled": false,
 
 	"git.autofetch": true,
 	"git.confirmSync": true,
@@ -32,11 +30,7 @@
 		{ "name": "Vue Green", "value": "#42b883" },
 	],
 
-	"sync.gist": "228fc69d8732c5c4328722719c3a677c",
 	"vsicons.dontShowNewVersionMessage": true,
-
-	"python.pythonPath": "C:\\Users\\hussn\\AppData\\Local\\Programs\\Python\\Python37-32\\python.exe",
-	"python.dataScience.sendSelectionToInteractiveWindow": false,
 
 	"editor.fontSize": 16,
 	"editor.fontFamily": "Fira Code",
