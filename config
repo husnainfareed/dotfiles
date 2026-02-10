@@ -1,0 +1,22 @@
+font-family = "Geist Mono"
+font-size = 16
+background-blur-radius = 20
+background-opacity = 0.8
+window-padding-balance = true
+window-decoration = true
+selection-invert-fg-bg = true
+cursor-style = block
+
+# Set custom macOS icon style
+macos-icon = custom-style
+
+# Customize the frame
+macos-icon-frame = aluminum
+
+# Set the ghost color
+macos-icon-ghost-color = #F7F71A
+
+# Set a gradient for the screen
+macos-icon-screen-color = #5C33FF,#9933FF,#CC99FF
+
+keybind = shift+enter=text:\n
