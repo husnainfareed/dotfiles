@@ -74,7 +74,7 @@
 		"editor.defaultFormatter": "esbenp.prettier-vscode",
 	},
 	"editor.fontFamily": "Fira Code",
-	"terminal.integrated.fontFamily": "Fira Code",
+	"terminal.integrated.fontFamily": "MesloLGS NF",
 	"editor.fontLigatures": true,
 	"editor.cursorBlinking": "expand",
 	"editor.cursorWidth": 4,
