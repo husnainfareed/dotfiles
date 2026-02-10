@@ -98,13 +98,6 @@
 	"cursor.composer.shouldAllowCustomModes": true,
 	"cursor.terminal.usePreviewBox": true,
 
-	"github.copilot.enable": {
-		"*": true,
-		"plaintext": false,
-		"markdown": false,
-		"scminput": false
-	},
-
 	"macros": {
 		"collapseAndClose": [
 			"workbench.files.action.collapseExplorerFolders",
