@@ -19,7 +19,7 @@ brew install nvm pnpm yarn
 brew install go python-tk@3.13
 
 # --- PostgreSQL & geospatial ---
-brew install postgresql@15 postgis
+brew install postgresql postgis
 
 # --- Image & document tooling ---
 brew install imagemagick
@@ -31,10 +31,6 @@ brew install --cask bruno conar
 brew install --cask ghostty iterm2
 # Fonts
 brew install --cask font-fira-code font-fira-code-nerd-font
-# Clipboard manager
-brew install --cask maccy
-# Collaboration
-brew install --cask slack
 
 # --- Post-install (optional) ---
 # $(brew --prefix)/opt/fzf/install
