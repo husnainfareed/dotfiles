@@ -6,7 +6,7 @@ set -euo pipefail
 
 # --- Shell & terminal UX ---
 brew install \
-  fish eza fzf zoxide starship wget neofetch \
+  zsh fish eza fzf zoxide starship wget neofetch \
   zsh-autosuggestions zsh-syntax-highlighting
 
 # --- CLI developer tools ---
