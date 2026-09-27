@@ -1,11 +1,16 @@
-font-family = "Geist Mono"
-font-size = 16
-background-blur-radius = 20
-background-opacity = 0.8
+font-family = Geist Mono
+font-size = 18
+background-opacity = 0.95
+background-blur = 20
 window-padding-balance = true
 window-decoration = true
+window-height = 25
+window-width = 90
 selection-invert-fg-bg = true
 cursor-style = block
+cursor-style-blink = false
+cursor-color = #e6e6e6
+cursor-text = #1a1a1a
 
 # Set custom macOS icon style
 macos-icon = custom-style
